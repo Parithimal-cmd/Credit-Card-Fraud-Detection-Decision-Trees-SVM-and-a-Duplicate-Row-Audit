@@ -136,37 +136,6 @@ Validation means out-of-fold predictions on the training data; the test set was 
 
 For transparency: in Setup A the tuned threshold gave TP 81, FP 11, FN 17 (precision 0.8804, recall 0.8265, F1 0.8526) against the default's F1 of 0.8306. That difference comes from 7 changed predictions out of 56,962 and is not presented as an improvement.
 
-## Figures
-
-The script produces six figures per setup. In this repository, the PNG files are stored directly inside the corresponding setup folder.
-
-### Setup B (primary): duplicates removed before the split
-
-![Class distribution, Setup B](B_deduplicated/01_class_distribution.png)
-
-![Cross-validated F1 by tree depth, Setup B](B_deduplicated/02_cv_depth_selection.png)
-
-![Threshold analysis on out-of-fold training predictions, Setup B](B_deduplicated/03_threshold_tuning_validation.png)
-
-![Precision-recall curves on the test set, Setup B](B_deduplicated/04_precision_recall_curves.png)
-
-![Confusion matrices on the test set, Setup B](B_deduplicated/05_confusion_matrices.png)
-
-![Precision, recall and F1 by model, Setup B](B_deduplicated/06_precision_recall_f1_comparison.png)
-
-### Setup A (sensitivity analysis): duplicates kept
-
-![Class distribution, Setup A](A_keep_duplicates/01_class_distribution.png)
-
-![Cross-validated F1 by tree depth, Setup A](A_keep_duplicates/02_cv_depth_selection.png)
-
-![Threshold analysis on out-of-fold training predictions, Setup A](A_keep_duplicates/03_threshold_tuning_validation.png)
-
-![Precision-recall curves on the test set, Setup A](A_keep_duplicates/04_precision_recall_curves.png)
-
-![Confusion matrices on the test set, Setup A](A_keep_duplicates/05_confusion_matrices.png)
-
-![Precision, recall and F1 by model, Setup A](A_keep_duplicates/06_precision_recall_f1_comparison.png)
 
 ## Key findings
 
