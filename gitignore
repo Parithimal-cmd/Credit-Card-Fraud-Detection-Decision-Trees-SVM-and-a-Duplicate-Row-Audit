@@ -1,0 +1,30 @@
+# --- Dataset (download separately; do not commit) ---
+creditcard.csv
+data/
+*.zip
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Jupyter / Spyder / IDE files ---
+.ipynb_checkpoints/
+.spyderproject
+.spyproject/
+.idea/
+.vscode/
+
+# --- Operating system files ---
+.DS_Store
+Thumbs.db
+
+# --- Secrets and local settings ---
+.env
